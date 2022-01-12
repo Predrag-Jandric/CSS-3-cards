@@ -1,0 +1,115 @@
+/* ======== GLOBAL ========= */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+        background-color: hsl(0, 0%, 95%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+}
+
+/* ========   CARDS  ========= */
+.card-one {
+    background-color: hsl(31, 77%, 52%);
+    height: 370px;
+    width: 220px;
+    border-radius: 7px 0 0 7px;
+}
+
+.card-two {
+    background-color: hsl(184, 100%, 22%);
+    height: 370px;
+    width: 220px;
+}
+
+.card-three {
+    background-color: hsl(179, 100%, 13%);
+    height: 370px;
+    width: 220px;
+    border-radius: 0 7px 7px 0;
+}
+
+/* ========  CORE CONTENT  ========= */
+
+img {
+    margin: 30px 0px 20px 30px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: hsla(0, 0%, 100%, 0.85);
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 30px 30px;
+    font-size: 0.8125rem;
+    color: hsla(0, 0%, 100%, 0.85);
+    word-spacing: 3px;
+}
+
+/* ==========   BUTTONS     ========== */
+.btn {
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 30px ;
+    color: hsl(31, 77%, 52%);
+    transition: 0.4s;
+}
+
+.btn-two {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-three {
+    color: hsl(179, 100%, 13%);
+}
+
+/* ======   HOVERS     ========= */
+.btn:hover {
+    color: hsla(0, 0%, 100%, 0.85);
+    background-color: hsl(31, 77%, 52%);
+    outline: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-two:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.btn-three:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* ========   MEDIA    ========== */
+@media screen and (max-width: 700px){
+    section {
+        flex-direction: column;
+        padding: 25px 0;
+    }
+
+    .card-one, .card-two, .card-three {
+        border-radius: 0px;
+    }
+
+    .card-one{
+        border-radius: 7px 7px 0 0 ;
+    }
+
+    .card-three{
+        border-radius: 0 0 7px 7px;
+    }
+}
