@@ -1,12 +1,16 @@
-# 🛠 3 column cards challenge
+# 🛠 CSS - 3 cards 
 
 # 🔗 [Live Preview](https://hardcore-heyrovsky-bea950.netlify.app/)
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out my one of many practice projects.
+- This early challenge was about building 3 basic cards arranged in a row, using basic HTML and CSS. Under certain screen width the cards are arranged in a column
 
-- In this challenge I build some basic component cards arranged in a column, using basic HTML and CSS, the cards are also responsive on all devices.
+- [Frontend Mentor](https://www.frontendmentor.io) is a website that challenges new developers to improve their coding skills by building realistic projects, it provides all the building materials.
 
-[Frontend Mentor](https://www.frontendmentor.io/profile/PeterJan285) is a community that helps programmers improve their coding skills by building realistic projects as challenges.
+### Languages and features 👨‍💻 
+
+- CSS: flexbox, responsiveness.
+
+Thanks for checking out my projects.
